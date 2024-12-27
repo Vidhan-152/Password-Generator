@@ -1,0 +1,149 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #9b59b6; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fbe5d6;
+  padding: 40px 50px; 
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  width: 400px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+.password-display-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.password-display {
+  flex: 1;
+  font-size: 18px;
+  color: #2c3e50;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 10px;
+}
+
+.copy-button {
+  background-color: #8e44ad;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+  background-color: #732d91;
+}
+
+.slider-container {
+    margin: 30px 0;
+}
+
+.slider-container label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: #8e44ad; /* Change this to your desired background color */
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+input[type="range"]:hover {
+    opacity: 1;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.checkbox-container {
+  margin: 30px 0;
+  text-align: left;
+}
+
+.checkbox-container label {
+  display: flex;
+  align-items: center;
+  font-size: 18px; /* Increased font size */
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  border-radius: 50%; /* Makes the checkboxes circular */
+  border: 2px solid #8e44ad; /* Matches the color theme */
+  accent-color: #9b59b6; /* Circle fill color */
+  cursor: pointer;
+}
+
+.generate-button {
+  background-color: #8e44ad;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.generate-button:hover {
+  background-color: #732d91;
+}
+
+.generate-button:active {
+  background-color: #5e2172;
+}
